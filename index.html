@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Natural</title>
+    <link rel="stylesheet" href="./estilos/estiloexamen.css">
+    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+
+    
+</head>
+<body>
+    <section id="home"></section>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#Kayak">Kayak</a>
+        <a href="#Trekking">Trekking</a>
+        <a href="#Espeleología">Espeleología</a>
+        <a href="#Parapente">Parapente</a>
+        <a href="#Kitesurf">Kitesurf</a>
+        <a href="#Volcanes">Volcanes</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776;
+        </a>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+      
+     <section id="card">
+        <h2>Te llevamos a donde nadie más te podrá llevar</h2>
+        <p>Enfréntate a retos y realidades que te hagan salir de tu zona de confort.</p>
+        <h2>Grupos muy reducidos</h2>
+        <p>Comparte la experiencia con un grupo pequeño y completamente afín a tu personalidad.</p>
+        <h2>Sostenibilidad</h2>
+        <p>Ante todo somos amantes de la naturaleza y desde siempre intentamos que nuestros viajes sean sostenibles y responsables.</p>
+    </section>
+    <h1 id="vive">VIVE LA AVENTURA EN PLENA NATURALEZA</h1>
+    <section id="grid-container">
+        <img class="grid-item" id="Kayak" src="./imagenes/canoakayak.jpg" alt="">
+        <img class="grid-item" id="Espeleología" src="./imagenes/espeleologia.jpg" alt="">
+        <img class="grid-item" id="Kitesurf" src="./imagenes/kitesurf.jpg" alt="">
+        <img class="grid-item" id="Parapente" src="./imagenes/parapente3.jpg" alt="">
+        <img class="grid-item" id="Trekking" src="./imagenes/trekking.jpg" alt="">
+        <img class="grid-item" id="Volcanes" src="./imagenes/volcanica.JPG" alt="">
+    </section>
+</body>
+<footer id="foot">
+    <p>Página realizada por: Iván Caro Romero.</p>
+    <p>Examen de Aplicaciones Web - 2020/21.</p>
+    <p>IES Campanillas</p>
+</footer>
+</html>
